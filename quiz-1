@@ -1,0 +1,54 @@
+Respuestas Quiz: Diagrama Entidad-Relación(ER).
+Christian Camilo Pabon Villanueva
+1.b,c,d
+2.c
+3.C
+4.a,b,c
+5.La diferencia entre una clave primaria y una clave foranea, es que la primaria hace referencia a la clave correspondiente al identificador de la tabla. 
+La clave foranea es la clave que es una clave primaria de otra tabla la cual es referenciada en la tabla principal.
+
+Ejemplo:
+
+empleados:		Dependencias:
+
+pk: id			pk: id_dependencia: 2 
+name: jhon Doe		name: Recursons Humanos	
+fk: Dependencia: 2	presupuesto: $5.000.0000
+
+6.b
+7.Concepto de herencia en el diagrama Entidad-Relacion.
+Comprende que toda tabla hereda TODOS los atributos de la tabla padre esta puede tener mas atributos particulares. y se representa mediante un triangulo
+8.c
+9.a,b,c
+10.La inclusion de restriccíones de un usuario en el diseño de un diagrama ER afectan directamente al dml, desde el dsl ya que se puede restringir tanto la visualizacion como metodos y parametros especificos como editar, crear u insertar asi como otros.
+El usuario puede insertar informacion en tablas como carro. pero no puede crear tablas.
+
+11.c
+12.a,b,c
+13.b
+14.Un diagrama entidad relacion es una de las formas de estructurar la base de datos, la importancia del diseño de la base de datos es que atravez de ella vamos a segmentar las "tablas", la dependencia y correlación de cada uno de las entidades.
+15.a
+16.a,c
+17.c
+18.b
+19.Relacion identificativa es aquella que atravez de claves primarias podemos atraer toda la informacion de las entidades y  las relaciones no identificacivas son aquella cuya informacion es dependiente de un campo "no necesariamente llave primaria".
+ejemplo de relacion no identidicativa:
+
+ID:Hace referencia a una relacion identidicaiva, mientraas que nacionalidad_autor es dependiente de autor 
+id_pelicula	autor		nacionalidad_del_autor	genero
+24		Tim Burton	USA			fantástico
+
+20.a,b,e
+21.a
+22.a,b,c,d,e
+23.la cardinalidad hace referencia a la interelación de las entidades en la base de datos ejemplo de ellos pueden ser de uno a uno, de uno a muchos, muchos a muchos.
+24.c
+25.b,d
+26.d
+27.Una relacion recursiva hace referencia a una forma de normalizar entidades que comparten cardinalidades de muchos a muchos.
+28.c
+29.a,c,e
+30.
+
+
+
